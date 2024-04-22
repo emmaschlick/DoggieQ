@@ -39,7 +39,7 @@ body{
 main{
     width: 1024px;
     height: 768px;
-    background-image: url('../images/BG.jpg');
+    background-image: url('../images/BG.png');
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -88,6 +88,7 @@ main{
 
 #btn1, #btn2{
     z-index: 7;
+    width: 65px;
     transition: scale .2s ease-in-out;
     cursor: pointer;
 }
@@ -105,8 +106,9 @@ main{
 #item{
   position: absolute;
   left: 437px;
-  top: 705px;
+  top: 670px;
   text-align: center;
+  color: #5b3526;
 }
 
 
@@ -140,7 +142,7 @@ main{
   
   /* The Close Button */
   .close {
-    color: #aaa;
+    color: #fff;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -148,7 +150,7 @@ main{
   
   .close:hover,
   .close:focus {
-    color: black;
+    color: #aaa;
     text-decoration: none;
     cursor: pointer;
   }
@@ -159,14 +161,15 @@ main{
     position: absolute;
     z-index: 10;
     padding: 10px 5px;
-    border: 3px solid #3cbdb3;
+    border: 3px solid #5c3526;
     border-radius: 15px;
-    background-color: #f9ddd1;
+    background-color: #8b5e3b;
     right: 65px;
     top: 380px;
     font-family: 'Snechy';
     font-size: 15px;
    transition: scale .5s ease-in-out;
+   color: #dfdfdf;
   }
 
   #myBtn:hover{
@@ -186,12 +189,12 @@ main{
     display: block;
     margin: 50px auto 50px;
     font-size: 1.8rem;
-    color: #000;
+    color: #dfdfdf;
     text-decoration: none;
     text-align: center;
     width: 400px;
     padding: 30px 0px 30px;
-    border: 5px solid #3cbdb3;
+    border: 5px solid #5c3526;
     border-radius: 25px;
     transition: scale .4s ease-in-out;
   }
@@ -221,8 +224,8 @@ main{
     right: 0;
     bottom: 0;
     z-index: 99;
-    background: rgb(249,221,209);
-    background: linear-gradient(180deg, rgba(249,221,209,1) 0%, rgba(255,240,211,1) 35%, rgba(157,234,229,1) 100%);
+    background: rgb(91,53,38);
+    background: linear-gradient(180deg, rgba(91,53,38,1) 0%, rgba(139,94,59,1) 35%, rgba(247,148,29,1) 100%);
     color: #000;
     list-style: none;
     padding-top: 4rem;
@@ -265,6 +268,7 @@ h2{
   top: 57px;
   left: 460px;
   z-index: 3;
+  color: #dfdfdf;
 }
 .text{
   z-index: 3;
@@ -273,4 +277,5 @@ h2{
   left: 460px;
   font-size: 15px;
   width: 300px;
+  color: #dfdfdf;
 }
